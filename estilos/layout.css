@@ -131,6 +131,7 @@ div.folha1{
    height: 150px;
    background-image: url(../imagens/secao09-folha1.png);
    background-repeat:no-repeat ;
+   opacity: 0;
 }
 div.camarao{
    position: absolute; 
@@ -140,6 +141,7 @@ div.camarao{
    height: 150px;
    background-image: url(../imagens/secao09-camarao.jpg);
    background-repeat:no-repeat ;
+   opacity: 0;
 }
 div.folha2{
    position: absolute; 
@@ -149,6 +151,7 @@ div.folha2{
    height: 150px;
    background-image: url(../imagens/secao09-folha2.png);
    background-repeat:no-repeat ;
+   opacity: 0;
 }
 div.folha3{
    position: absolute; 
@@ -158,6 +161,7 @@ div.folha3{
    height: 150px;
    background-image: url(../imagens/secao09-folha3.png);
    background-repeat:no-repeat ;
+   opacity: 0;
 }
 div.tomate{
    position: absolute; 
@@ -167,6 +171,7 @@ div.tomate{
    height: 150px;
    background-image: url(../imagens/secao09-tomate.png);
    background-repeat:no-repeat ;
+   opacity: 0;
 }
 div.queijo{
    position: absolute; 
@@ -176,6 +181,7 @@ div.queijo{
    height: 150px;
    background-image: url(../imagens/secao09-queijo.jpg);
    background-repeat:no-repeat ;
+   opacity: 0;
 }
     div#domingo-perfeito-centro{
         width: 65%;
@@ -229,6 +235,7 @@ div.queijo{
     width: 33.3%;
     text-align: center;
     margin: 5px 0;
+    opacity: 0;
    }
      /*-----------------*/
     /*SECAO DEPOIMENTOS*/
@@ -317,7 +324,7 @@ div.queijo{
        border:5px solid #F03733 ;
     }
      /*--------------------------*/
-    /*TRANSIÇÃO-TESTEMUNHA-PLANO*/
+    /*SEÇÃO TRANSIÇÃO 1*/
    /*--------------------------*/
    div#transicao-testemunha-plano{
      width: 100%;
@@ -332,6 +339,7 @@ div.queijo{
        background-image: url(../imagens/secao13-tomate-manjericao-alho.jpg);
        background-repeat:no-repeat ;
        background-position: top center;
+       opacity: 0;
     }
     div#transicao-testemunha-plano div#decoracao2{
         width: 30%;
@@ -339,6 +347,7 @@ div.queijo{
         background-image: url(../imagens/secao13-azeite.jpg);
         background-repeat:no-repeat ;
         background-position: bottom center;
+        opacity: 0;
      }
     div#transicao-testemunha-plano div#decoracao3{
        width: 30%;
@@ -346,6 +355,7 @@ div.queijo{
        background-image: url(../imagens/secao13-detalhe-tomate.jpg);
        background-repeat:no-repeat ;
        background-position: bottom right;
+       opacity: 0;
 
    }
      /*--------------------------*/
