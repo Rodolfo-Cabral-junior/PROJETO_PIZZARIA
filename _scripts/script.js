@@ -62,3 +62,18 @@ $('ion-icon#whatsapp').click(function () {
 $('ion-icon#youtube').click(function () {
     window.open("https://www.youtube.com/watch?v=fCWvZisydrE&list=RDfCWvZisydrE&start_radio=1&rv=fCWvZisydrE","_blank");
 })
+     /*-------------------*/
+    /*CÓDIGOS DE ANIMAÇÃO*/
+   /*-------------------*/
+  $('section#domingo-perfeito').waypoint(function(direcao ) {
+      if (direcao == "down") {
+          console.log('descendo!!!');
+        }
+        if (direcao == "up") {
+            console.log('subindo!!!');
+        }
+        
+  },{
+     offset:'100px;'
+  })
+  
